@@ -138,3 +138,4 @@ if model is not None and tokenizer is not None:
             st.warning("Please paste a paragraph to summarize.")
 else:
     st.error("Model could not be loaded. The app cannot function without it.")
+    
